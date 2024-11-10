@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS assigment 40 -52</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <a href="#" onclick="alert('hello !')" style="font-weight: bold; font-size: 1.5rem;">Click Me</a>
+    <hr>
+    <div class="flower">
+        <img src="https://images.unsplash.com/photo-1730637006956-41841e43b0c6?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="" onclick="alert('pink flowers in this picture')">
+        <img src="https://images.unsplash.com/photo-1574675904801-eb2cca16af12?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="" onclick="alert('Iphone on table')">
+    </div>
+<hr>
+    <table>
+
+        <tr>
+            <th>0</th>
+            <th>John 10</th>
+            <td><button class="delete-btn" onclick="deleteRow(this)">Delete</button></td>
+
+        </tr>
+        <tr>
+            <th>1</th>
+            <th>Doe 9</th>
+            <td><button class="delete-btn" onclick="deleteRow(this)">Delete</button></td>
+
+        </tr>
+        <tr>
+            <th>2</th>
+            <th>Mark 10</th>
+            <td><button class="delete-btn" onclick="deleteRow(this)">Delete</button></td>
+
+        </tr>
+        <tr>
+            <th>3</th>
+            <th>James 8</th>
+
+            <td><button class="delete-btn" onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+    </table>
+    <hr>
+
+    <!-- <img src="images 1.jpg" alt="Original Image" onload="changeImageOnHover(this, 'imag3.png')"> -->
+
+    <div id="mybox" MyBox()>
+        Click Me 😀
+    </div>
+    <hr>
+
+      <div id="counter">0</div>
+      <div class="button-container">
+        <button class="increase" onclick="increaseCounter()">Increase</button>
+        <button class="decrease" onclick="decreaseCounter()">Decrease</button>
+        <button class="restart" onclick="restartCounter()">Reset</button>
+      </div>  
+      <hr>
+      
+    <div class="form-container">
+      <h2>Signup Form</h2>
+      <form id="signupForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        
+        <button type="button" onclick="submitForm()">Submit</button>
+      </form>
+    </div>
+  
+    <div id="output"></div>
+    <hr>
+
+
+    <div class="content-container2">
+        <h2>Item Title</h2>
+        <p>This is a brief description of the item.</p>
+        <p class="content" id="fullContent">Here is the full detail of the item that provides in-depth information, specifications, and additional features that were not visible in the initial summary.</p>
+        <button onclick="toggleContent()" id="readMoreBtn1">Read more</button>
+      </div>
+    <hr>
+
+    <div class="content-container">
+        <!-- Student Entry Form -->
+        <h2>Add Student Details</h2>
+        <form id="studentForm">
+          <input type="text" id="name" placeholder="Name" required>
+          <input type="number" id="age" placeholder="Age" required>
+          <input type="text" id="grade" placeholder="Grade" required>
+          <button type="button" onclick="addStudent()" class="add">Add Student</button>
+        </form>
+    
+        <!-- Table to Display Students -->
+        <h2>Student List</h2>
+        <table id="studentTable">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Age</th>
+              <th>Grade</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Rows will be added here by JavaScript -->
+          </tbody>
+        </table>
+    
+        <!-- Hidden Edit Form -->
+        <form id="editForm">
+          <h2>Edit Student Details</h2>
+          <input type="text" id="editName" required>
+          <input type="number" id="editAge" required>
+          <input type="text" id="editGrade" required>
+          <button type="button" onclick="updateStudent()" class="Update" >Update Student</button>
+        </form>
+      </div>
+  
+    <script src="index.js"></script>
+</body>
+
+</html>

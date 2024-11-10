@@ -1,0 +1,171 @@
+.flower img{
+    height: 300px;
+    width: 300px;
+}
+
+table, th, tr {
+    border:1px solid black;
+  }
+
+  #mybox{
+    background: skyblue;
+    width: 300px;
+    height: 300px;
+    font-weight: bold;
+    font-size: 4rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #counter {
+    font-size: 3em;
+    margin-bottom: 20px;
+    display: flex;
+    text-align: center;
+  }
+  .button-container button {
+    padding: 10px 20px;
+    font-size: 1em;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .increase {
+    background-color: #4caf50;
+    color: white;
+  }
+  .decrease {
+    background-color: #f44336;
+    color: white;
+  }
+
+  .form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 300px;
+    margin-top: 2rem;
+  }
+  .form-container input[type="text"],
+  .form-container input[type="email"],
+  .form-container input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  .form-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .form-container button:hover {
+    background-color: #45a049;
+  }
+  #output {
+    margin-top: 20px;
+    font-size: 1em;
+  }
+
+
+  .content-container1 {
+    width: 300px;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+  }
+  .content {
+    display: none;
+  }
+  .content-container2 button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 0.9em;
+  }
+
+  .content-container {
+    font-family: Arial, sans-serif;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  form {
+    margin-bottom: 20px;
+  }
+  input[type="text"], input[type="number"] {
+    width: calc(100% - 22px);
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  .button {
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    color: white;
+  }
+  .add{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 0.9em;
+
+  }
+  .edit-btn1 {
+    background-color: #f0ad4e;
+    color: white;
+    font-weight: bold;
+  }
+  .delete-btn1 {
+    background-color: #d9534f;
+    color: white;
+    font-weight: bold;
+
+  }
+  table, th, td {
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    padding: 8px;
+    text-align: left;
+  }
+  td{
+    color: black;
+  }
+  table {
+    width: 100%;
+  }
+  th {
+    background-color: #007bff;
+    color: white;
+  }
+  #editForm {
+    display: none;
+  }
+.Update{
+  background: rgb(34, 194, 34);
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
